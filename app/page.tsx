@@ -60,13 +60,13 @@ export default function Home() {
                     <div className="col-span-12 space-y-2.5">
                         <div className="lg:mr-16">
                             <p className="text-[#44566c] text-color-910 leading-7">
-                                However, it is essential to remember that the ultimate goal is to find the best solution to the problem at hand.
-                                While tools play a significant role, they are means to an end.
-                                The focus should always be on understanding the problem, analyzing requirements, and architecting a solution that effectively addresses the problem and meets the needs of the users.
+                                {"However, it is essential to remember that the ultimate goal is to find the best solution to the problem at hand."}
+                                {"While tools play a significant role, they are means to an end."}
+                                {"The focus should always be on understanding the problem, analyzing requirements, and architecting a solution that effectively addresses the problem and meets the needs of the users."}
                             </p>
                             <p className="text-[#44566c] mt-2.5  text-color-910 leading-7">
-                                Therefore, while tools do matter, they should be chosen based on their suitability for the task and their ability to help achieve the desired outcome.
-                                It's important to strike a balance between using reliable and appropriate tools and applying problem-solving skills to create effective solutions.
+                                {"Therefore, while tools do matter, they should be chosen based on their suitability for the task and their ability to help achieve the desired outcome."}
+                                {"It's important to strike a balance between using reliable and appropriate tools and applying problem-solving skills to create effective solutions."}
                             </p>
                         </div>
                     </div>
