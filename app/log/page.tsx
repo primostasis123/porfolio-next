@@ -1,4 +1,3 @@
-import React from 'react'
 
 export default function Log() {
     return (
@@ -12,8 +11,8 @@ export default function Log() {
                     <div className="col-span-12 space-y-2.5">
                         <div className="lg:mr-16">
                             <p className="text-[#44566c] text-color-910 leading-7">
-                            Hi, as of the moment, this website doesn't have a mobile view experience as it is still under construction. <br/>
-                            Please switch to desktop view. Thank you for your understanding.
+                            {" Hi, as of the moment, this website doesn't have a mobile view experience as it is still under construction. <br/>"}
+                            {" Please switch to desktop view. Thank you for your understanding. "}
                             </p>
                         </div>
                     </div>
