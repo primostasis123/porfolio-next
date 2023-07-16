@@ -18,12 +18,14 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <div className="bg-background min-h-screen bg-no-repeat bg-center bg-cover bg-fixed md:pb-16 w-full">
-          <Header/>
+          <Header />
           <div className="container grid grid-cols-12 md:gap-10 justify-between lg:mt-[220px]">
-                <Sidebar />
+            <div className="col-span-12 lg:col-span-4 hidden lg:block h-screen sticky top-44">
+              <Sidebar />
+            </div>
             <div className="col-span-12 lg:col-span-8">
-                <Menu />
-                {children}
+              <Menu />
+              {children}
             </div>
           </div>
         </div>

@@ -1,8 +1,8 @@
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUser, faFileLines} from '@fortawesome/free-regular-svg-icons'
-import { faCertificate, faList } from '@fortawesome/free-solid-svg-icons'
-import { faBlogger, faRProject } from '@fortawesome/free-brands-svg-icons'
+import { faUser, faFileLines,} from '@fortawesome/free-regular-svg-icons'
+import { faCertificate, faList, faFolder  } from '@fortawesome/free-solid-svg-icons'
+import { faBlogger } from '@fortawesome/free-brands-svg-icons'
 import Link from 'next/link';
 
 export default function Menu() {
@@ -18,18 +18,10 @@ export default function Menu() {
                         <span className="text-xl mb-1">
                             <FontAwesomeIcon icon={faFileLines} />
                         </span> Experience </Link></li>
-                    <li> <Link className="menu-item" href="/certificate">
+                    <li> <Link className="menu-item" href="/project">
                         <span className="text-xl mb-1">
-                            <FontAwesomeIcon icon={faCertificate} />
-                        </span> Certificate </Link></li>
-                    <li><Link className="menu-item" href="/log">
-                        <span className="text-xl mb-1">
-                            <FontAwesomeIcon icon={faList} />
-                        </span> Log </Link></li>
-                    {/* <li> <a className="menu-item" href="./contactOne.html">
-                        <span className="text-xl mb-1">
-                            <FontAwesomeIcon icon={faRProject} />
-                        </span> Projects </a></li> */}
+                            <FontAwesomeIcon icon={faFolder} />
+                        </span> Projects </Link></li>
                 </ul>
             </nav>
         </header>

@@ -6,7 +6,7 @@ import { faLinkedinIn, faFacebookF, faGithub } from '@fortawesome/free-brands-sv
 import { faMobileScreenButton, faEnvelopeOpenText, faLocationDot, faCalendarDays, faCloudDownload } from '@fortawesome/free-solid-svg-icons'
 export default function Sidebar() {
     return (
-        <div className="col-span-12 lg:col-span-4 hidden lg:block h-screen sticky top-44">
+
             <div className="w-full mb-6 lg:mb-0 mx-auto relative bg-white text-center dark:bg-[#111111] px-6 rounded-[20px] mt-[180px] md:mt-[220px] lg:mt-0">
                 <Image src={avatar} alt="" className="w-[240px] absolute left-[50%] transform -translate-x-[50%] h-[240px] drop-shadow-xl mx-auto rounded-[20px] -mt-[140px]" />
                 <div className="pt-[100px] pb-8">
@@ -76,6 +76,6 @@ export default function Sidebar() {
                         <FontAwesomeIcon icon={faCloudDownload} /> Download CV </button>
                 </div>
             </div>
-        </div>
+ 
     )
 }
