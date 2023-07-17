@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from "next/link"
 import avatar from '../../assets/images/profile_photo.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedinIn, faFacebookF, faGithub } from '@fortawesome/free-brands-svg-icons'
@@ -72,8 +73,11 @@ export default function Sidebar() {
                         </div>
                     </div>
 
-                    <button className="dowanload-btn">
-                        <FontAwesomeIcon icon={faCloudDownload} /> Download CV </button>
+                    <Link href="Resume.pdf" target="_blank"   >
+                        <button className="dowanload-btn">
+                        <FontAwesomeIcon icon={faCloudDownload} /> Download Resume 
+                        </button>
+                    </Link>
                 </div>
             </div>
  
