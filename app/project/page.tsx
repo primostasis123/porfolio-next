@@ -1,18 +1,28 @@
+import Link from 'next/link'
 import React from 'react'
 
 export default function Project() {
     return (
         <div className="lg:rounded-2xl bg-white dark:bg-[#111111]">
             <div className="pt-12 md:py-12 px-2 sm:px-5 md:px-10 lg:px-14 ">
-                <h2 className="after-effect after:left-52">Project</h2>
+                <h2 className="after-effect after:left-60">Hobby Project</h2>
                 <div className="lg:grid grid-cols-12 md:gap-10 pt-4 md:pt-[30px] items-center ">
                     <div className="col-span-12 space-y-2.5">
                         <div className="lg:mr-16">
-                            <h2 className="text-white text-xl">Inventory Management using Amazon FBA</h2>
+                            <h2 className="text-white text-xl"><Link className="text-blue-600" href="https://www.reviewpdf-ai.com/" target='_blank'>https://www.reviewpdf-ai.com/</Link>
+                            </h2>
                             <p className="text-[#44566c] text-color-910 leading-7">
-                               {"I have created an all-in-one solution for E-Commerce that updates the products of customers' Rakuten and YahooStore based on their Amazon Store."}
-                                {"Additionally, it includes automatic delivery using Amazon FBA (Fulfillment by Amazon)."}
-                                {"This integrated system streamlines the process and ensures efficient management of inventory and order fulfillment across different platforms."}
+                            Effortlessly distill information from documents, provide instant answers to questions, and seamlessly comprehend research with the power of AI<br/><br/>
+                            Technical Stacks <br/>
+                                ● Next.js: React Framework<br/>
+                                ● Tailwind CSS: Styling framework<br/>
+                                ● MySQL: Relational Database<br/>
+                                ● Prisma: ORM (Object-Relational Mapping)<br/>
+                                ● tRPC: Typesafe API<br/>
+                                ● Vercel: Cloud Hosting<br/>
+                                ● AWS RDS: Database Hosting on Amazon Web Services<br/>
+                                ● Pinecone – Vector Storage Platform<br/>
+                                ● PayPal: Payment Service<br/>
                             </p>
                         </div>
                     </div>
