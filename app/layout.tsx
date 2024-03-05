@@ -15,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
       <body>
         <div className="min-h-screen bg-no-repeat bg-center bg-cover bg-fixed md:pb-16 w-full bg-background">
           <Header />
