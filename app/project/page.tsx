@@ -12,8 +12,7 @@ export default function Project() {
                             <h2 className="text-white text-xl"><Link className="text-blue-600" href="https://www.reviewpdf-ai.com/" target='_blank'>https://www.reviewpdf-ai.com/</Link>
                             </h2>
                             <p className="text-[#44566c] text-color-910 leading-7">
-                            Effortlessly distill information from documents, provide instant answers to questions, and seamlessly comprehend research with the power of AI<br/><br/>
-                            Technical Stacks <br/>
+                            A SaaS application that allows you to have conversations with any PDF documents. Simply upload your file and start asking questions right away with the power of OpenAI. <br/>
                                 ● Next.js: React Framework<br/>
                                 ● Tailwind CSS: Styling framework<br/>
                                 ● MySQL: Relational Database<br/>
@@ -21,7 +20,7 @@ export default function Project() {
                                 ● tRPC: Typesafe API<br/>
                                 ● Vercel: Cloud Hosting<br/>
                                 ● AWS RDS: Database Hosting on Amazon Web Services<br/>
-                                ● Pinecone – Vector Storage Platform<br/>
+                                ● Pinecone: Vector Storage Platform<br/>
                                 ● PayPal: Payment Service<br/>
                             </p>
                         </div>
