@@ -3,7 +3,7 @@ import Sidebar from './components/sidebar/sidebar'
 
 export default function Home() {
     return (
-        <div className="lg:rounded-2xl bg-white dark:bg-[#111111] ">
+        <div className="lg:rounded-2xl  dark:bg-[#111111] ">
             <div className="pt-12 md:py-12 px-2 sm:px-5 md:px-10 lg:px-14 ">
                 <h2 className="after-effect after:left-52 ">About Me</h2>
                 <div className="lg:hidden">

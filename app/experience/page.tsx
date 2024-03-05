@@ -1,7 +1,7 @@
 import React from 'react'
 export default function Experience() {
     return (
-        <div className="lg:rounded-2xl bg-white dark:bg-[#111111]">
+        <div className="lg:rounded-2xl  dark:bg-[#111111]">
             <div className="pt-12 md:py-12 px-2 sm:px-5 md:px-10 lg:px-14 ">
                 <h2 className="after-effect after:left-52">Experience</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-x-6 gap-y-6 mt-[30px]">

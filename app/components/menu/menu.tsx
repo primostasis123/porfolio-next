@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 export default function Menu() {
     return (
-        <header className="lg:w-[560px] h-[144px] hidden lg:block p-[30px] ml-auto mb-10 rounded-[16px] bg-white dark:bg-[#111111]">
+        <header className="lg:w-[560px] h-[144px] hidden lg:block p-[30px] ml-auto mb-10 rounded-[16px] dark:bg-[#111111]">
             <nav className="hidden lg:block">
                 <ul className="flex">
                     <li>  <Link className="menu-item" href="/" >
