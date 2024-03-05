@@ -8,7 +8,7 @@ import { faMobileScreenButton, faEnvelopeOpenText, faLocationDot, faCalendarDays
 export default function Sidebar() {
     return (
 
-            <div className="w-full mb-6 lg:mb-0 mx-auto relative bg-white text-center dark:bg-[#111111] px-6 rounded-[20px] mt-[180px] md:mt-[220px] lg:mt-0">
+            <div className="w-full mb-6 lg:mb-0 mx-auto relative  text-center dark:bg-[#111111] px-6 rounded-[20px] mt-[180px] md:mt-[220px] lg:mt-0">
                 <Image src={avatar} alt="" className="w-[240px] absolute left-[50%] transform -translate-x-[50%] h-[240px] drop-shadow-xl mx-auto rounded-[20px] -mt-[140px]" />
                 <div className="pt-[100px] pb-8">
                     <h2 className="mt-6 mb-1 text-[26px] font-semibold dark:text-white"> Edito Moncada Jr </h2>
@@ -36,7 +36,7 @@ export default function Sidebar() {
 
                     <div className="p-7 rounded-2xl mt-7 bg-[#F3F6F6] dark:bg-[#1D1D1D]">
                         <div className="flex border-b border-[#E3E3E3] dark:border-[#3D3A3A] pb-2.5">
-                            <span className="socialbtn bg-white dark:bg-black text-[#E93B81] shadow-md">
+                            <span className="socialbtn  dark:bg-black text-[#E93B81] shadow-md">
                                 <FontAwesomeIcon icon={faMobileScreenButton} />
                             </span>
                             <div className="text-left ml-2.5">
@@ -45,7 +45,7 @@ export default function Sidebar() {
                             </div>
                         </div>
                         <div className="flex border-b border-[#E3E3E3] dark:border-[#3D3A3A] py-2.5">
-                            <span className="socialbtn bg-white dark:bg-black text-[#6AB5B9] shadow-md">
+                            <span className="socialbtn  dark:bg-black text-[#6AB5B9] shadow-md">
                                 <FontAwesomeIcon icon={faEnvelopeOpenText} />
                             </span>
                             <div className="text-left ml-2.5">
@@ -54,7 +54,7 @@ export default function Sidebar() {
                             </div>
                         </div>
                         <div className="flex border-b border-[#E3E3E3] dark:border-[#3D3A3A] py-2.5">
-                            <span className="socialbtn bg-white dark:bg-black text-[#FD7590] shadow-md">
+                            <span className="socialbtn dark:bg-black text-[#FD7590] shadow-md">
                                 <FontAwesomeIcon icon={faLocationDot} />
                             </span>
                             <div className="text-left ml-2.5">
@@ -63,7 +63,7 @@ export default function Sidebar() {
                             </div>
                         </div>
                         <div className="flex py-2.5">
-                            <span className="socialbtn bg-white dark:bg-black text-[#C17CEB] shadow-md">
+                            <span className="socialbtn  dark:bg-black text-[#C17CEB] shadow-md">
                                 <FontAwesomeIcon icon={faCalendarDays} />
                             </span>
                             <div className="text-left ml-2.5">

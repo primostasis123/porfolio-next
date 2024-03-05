@@ -26,7 +26,7 @@ export default function Header() {
                 </div>
             </div>
             <nav id="navbar" className={menuShow === "hidden" ? "lg:hidden" : "hidden"}>
-                <ul className="block rounded-b-[20px] shadow-md absolute left-0 top-20 z-[22222222222222] w-full bg-white dark:bg-[#1d1d1d]">
+                <ul className="block rounded-b-[20px] shadow-md absolute left-0 top-20 z-[22222222222222] w-full  dark:bg-[#1d1d1d]">
                     <li>
                         <Link className="mobile-menu-items" href="/">
                             <span className="mr-2 text-xl">
