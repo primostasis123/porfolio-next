@@ -38,9 +38,17 @@ export const experiencesData = [
     title: "Eviden Atos Group",
     location: "Cebu, Philipines",
     description:
-      "Currently working as a Software Engineer at Eviden, I am open to full-time opportunities.",
+      "I worked as a Software Engineer.",
     icon: React.createElement(FaReact),
-    date: "2022 - present",
+    date: "2022 - 2024",
+  },
+  {
+    title: "Workbeaver",
+    location: "Cebu, Philipines",
+    description:
+      "Currently working as a Software Engineer at Workbeaver, I am open to full-time opportunities.",
+    icon: React.createElement(FaReact),
+    date: "2024 - present",
   },
 ] as const;
 
